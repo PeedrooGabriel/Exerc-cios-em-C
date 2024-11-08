@@ -10,7 +10,7 @@ int main() {
     for (int i = 0; i < columns; i++) {
         int sum = 0;
         for (int j = 0; j < rows - 1; j++) {
-            printf("Informe o número para a posição [%d][%d]: ", j, i);
+            printf("Informe o nÃºmero para a posiÃ§Ã£o [%d][%d]: ", j, i);
             scanf("%d", &matrix[j][i]);
             sum += matrix[j][i];
         }

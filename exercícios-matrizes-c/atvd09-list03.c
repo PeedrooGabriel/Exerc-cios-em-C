@@ -9,7 +9,7 @@ int main(){
 	
 	for(int i = 0;i < size;i++){
 		for(int j = 0;j < size;j++){
-			printf("Informe os números da matriz:\n");
+			printf("Informe os nÃºmeros da matriz:\n");
 			scanf("%i", &matrix[i][j]);
 		}
 	}

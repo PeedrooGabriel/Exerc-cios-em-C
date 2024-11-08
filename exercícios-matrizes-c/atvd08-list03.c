@@ -10,7 +10,7 @@ int main(){
 	for(int i = 0;i < row;i++){
 		row_average = 0;
 		for(int j = 0;j < column;j++){
-			printf("Informe os números da matriz:\n");
+			printf("Informe os nÃºmeros da matriz:\n");
 			scanf("%i", &matrix[i][j]);
 			if(matrix[i][j] > highest_num){
 				highest_num = matrix[i][j];
@@ -31,11 +31,11 @@ int main(){
 	average /= (row * column);
 	row_average /= column;
 	
-	printf("Maior número da matriz: %i\n", highest_num);
-	printf("Soma dos números múltiplos de 3 da matrix: %i\n", add);
-	printf("média dos números da segunda linha da matriz: %i \n", row_average);
-	printf("média dos números da matriz: %i \n",average);
-	printf("Matriz multiplicada pela média:\n\n");
+	printf("Maior nÃºmero da matriz: %i\n", highest_num);
+	printf("Soma dos nÃºmeros mÃºltiplos de 3 da matrix: %i\n", add);
+	printf("mÃ©dia dos nÃºmeros da segunda linha da matriz: %i \n", row_average);
+	printf("mÃ©dia dos nÃºmeros da matriz: %i \n",average);
+	printf("Matriz multiplicada pela mÃ©dia:\n\n");
 	for(int i = 0;i < row;i++){
 		for(int j = 0;j < column;j++){
 			matrix[i][j] *= average;

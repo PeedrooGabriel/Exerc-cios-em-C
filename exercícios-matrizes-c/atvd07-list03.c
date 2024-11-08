@@ -10,11 +10,11 @@ int main(){
 	float matrix[row][column], average[row], highest_average = 0.0;
 	
 	for(int i = 0;i < row;i++){
-		printf("Digíte o nome do %i° aluno:\n", i + 1);
+		printf("DigÃ­te o nome do %iÂ° aluno:\n", i + 1);
 		scanf("%14s", name[i]);
 		average[i] = 0;
 		for(int j = 0;j < column;j++){
-			printf("Informe a %iª nota de %s:\n", j + 1, name[i]);
+			printf("Informe a %iÂª nota de %s:\n", j + 1, name[i]);
 			scanf("%f", &matrix[i][j]);
 			average[i] +=matrix[i][j];
 		}
@@ -24,12 +24,12 @@ int main(){
 			strcpy(top_student, name[i]);
 		}
 	}
-	printf("\n\nRelatório:\n");
-	printf("\nNome e média dos alunos:\n");
+	printf("\n\nRelatÃ³rio:\n");
+	printf("\nNome e mÃ©dia dos alunos:\n");
 	for(int i = 0;i < row;i++){
 		printf("%s -> %.2f\n", name[i], average[i]);
 	}
-	printf("\n%s teve a maior média -> %.2f", top_student, highest_average);
+	printf("\n%s teve a maior mÃ©dia -> %.2f", top_student, highest_average);
 
 	return 0;
 }

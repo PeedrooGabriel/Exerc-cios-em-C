@@ -11,9 +11,9 @@ int main(){
 	for(int i = 0;i < age;i++){
 		printf("Informe sua idade:\n");
 		scanf("%i", &matrix[i][0]);
-		printf("Informe quantos filhos você tem:\n");
+		printf("Informe quantos filhos vocÃª tem:\n");
 		scanf("%i", &matrix[i][1]);
-		printf("Informe seu salário:\n");
+		printf("Informe seu salÃ¡rio:\n");
 		scanf("%f", &salary[i]);
 		average_sal += salary[i];
 		average_child += matrix[i][1];
@@ -30,15 +30,15 @@ int main(){
 	if(specific_average > 0){
 		specific_average /= spec;
 	}
-	printf("======================\nIdade|Filho(s)|Salário\n");
+	printf("======================\nIdade|Filho(s)|Salï¿½rio\n");
 	for(int i = 0;i < age;i++){
 		for(int j = 0;j < children;j++){
 			printf("%i\t", matrix[i][j]);
 		}
 		printf("%.2f\n", salary[i]);
 	}
-	printf("\nMédia salarial da população: %.2f\n",average_sal);
-	printf("Média do número de filhos: %.2f\n", average_child);
+	printf("\nMÃ©dia salarial da populaÃ§Ã£o: %.2f\n",average_sal);
+	printf("MÃ©dia do nÃºmero de filhos: %.2f\n", average_child);
 	printf("Quantidade de filhos das pessoas entre 15 a 25 anos: %i\n", cont);
-	printf("Média salarial de pessoas entre 20 a 30 anos: %.2f\n", specific_average);
+	printf("MÃ©dia salarial de pessoas entre 20 a 30 anos: %.2f\n", specific_average);
 }

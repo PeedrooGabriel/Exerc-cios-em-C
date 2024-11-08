@@ -10,7 +10,7 @@ int main(){
 	
 	for(int i = 0;i < 4;i++){
 		for(int j = 0;j < 6;j++){
-			printf("Digíte um número:\n");
+			printf("DigÃ­te um nÃºmero:\n");
 			scanf("%i", &num[i][j]);
 			if(num[i][j] > 10 && num[i][j] < 30){
 				counter++;
@@ -36,9 +36,9 @@ int main(){
 		printf("\n");
 	}
 	
-	printf("Quantidade de números que estão no intervalo entre 10 e 30: %i\n", counter);
-	printf("Soma dos números pares maiores do que 10: %i\n", add);
-	printf("Soma dos números que estão na quarta coluna da matriz: %i\n", add4);
-	printf("média dos números da matriz que estão na terceira linha: %.2f", average);
+	printf("Quantidade de nÃºmeros que estÃ£o no intervalo entre 10 e 30: %i\n", counter);
+	printf("Soma dos nÃºmeros pares maiores do que 10: %i\n", add);
+	printf("Soma dos nÃºmeros que estÃ£o na quarta coluna da matriz: %i\n", add4);
+	printf("mÃ©dia dos nÃºmeros da matriz que estÃ£o na terceira linha: %.2f", average);
 }
 

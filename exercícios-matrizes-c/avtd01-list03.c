@@ -10,7 +10,7 @@ int main(){
 	
 	for(int i = 0;i < 3;i++){
 		for(int j = 0;j < 5;j++){
-			printf("Digíte um número(linha %i - coluna %i):\n", i + 1, j + 1);
+			printf("DigÃ­te um nÃºmero(linha %i - coluna %i):\n", i + 1, j + 1);
 			scanf("%i", &num[i][j]);
 			if(i == 0  && j == 0){
 				smallest_num = num[i][j];
@@ -39,10 +39,10 @@ int main(){
 		
 	average /= div;
 	
-	printf("Menor número da matriz: %i\n", smallest_num);
-	printf("Soma dos números múltiplos de 3: %i\n", add);
-	printf("Maior número na terceira coluna: %i\n", largest_num);
-	printf("Média dos números da matriz: %.2f\n", average);
+	printf("Menor nÃºmero da matriz: %i\n", smallest_num);
+	printf("Soma dos nÃºmeros mÃºltiplos de 3: %i\n", add);
+	printf("Maior nÃºmero na terceira coluna: %i\n", largest_num);
+	printf("MÃ©dia dos nÃºmeros da matriz: %.2f\n", average);
 	
 	return 0;
 }

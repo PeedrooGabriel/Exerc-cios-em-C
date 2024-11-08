@@ -13,7 +13,7 @@ int main(void) {
     printf("\nDigite o valor da venda:\n");
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 3; j++) {
-            printf("Vendedor: %d || Mês: %d: ", i + 1, j + 1);
+            printf("Vendedor: %d || MÃªs: %d: ", i + 1, j + 1);
             scanf("%f", &sales[i][j]);
 
             totalPerSeller[i] += sales[i][j];
@@ -36,17 +36,17 @@ int main(void) {
     for (int i = 0; i < 5; i++) {
         printf("\nVendedor[%d]: %s:\n", i + 1, sellers[i]);
         for (int j = 0; j < 3; j++) {
-            printf("\tMês[%d]: $%.2f\n", j + 1, sales[i][j]);
+            printf("\tMÃªs[%d]: $%.2f\n", j + 1, sales[i][j]);
         }
         printf("Total por Vendedor[%d]: $%.2f\n", i + 1, totalPerSeller[i]);
     }
 
     for (int i = 0; i < 3; i++) {
-        printf("Total por Mês[%d]: $%.2f\n", i + 1, totalPerMonth[i]);
+        printf("Total por MÃªs[%d]: $%.2f\n", i + 1, totalPerMonth[i]);
     }
 
-    printf("Maior venda do 1º mês: $%.2f\n", biggestSaleFirstMonth);
-    printf("Menor venda do 3º mês: $%.2f\n", lowestSaleThirdMonth);
+    printf("Maior venda do 1Â° mÃªs: $%.2f\n", biggestSaleFirstMonth);
+    printf("Menor venda do 3Â° mÃªs: $%.2f\n", lowestSaleThirdMonth);
 
     return 0;
 }

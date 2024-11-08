@@ -10,7 +10,7 @@ int main(){
 	
 	for(int i = 0;i < row;i++){
 		for(int j = 0;j < column;j++){
-			printf("Digíte um número:\n");
+			printf("DigÃ­te um nÃºmero:\n");
 			scanf("%i", &matrix[i][j]);
 			if(i == 1 || i == 3){
 				add += matrix[i][j];
@@ -43,9 +43,9 @@ int main(){
 		}
 		printf("\n");
 	}
-	printf("\nSoma dos elementos que estão na 2ª e na 4ª linha da matriz: %i\n", add);
-	printf("Soma dos números primos: %i\n", primo);
-	printf("Média dos números da matriz: %.2f\n", average);
-	printf("Maior número da matriz: %i", greater);
+	printf("\nSoma dos elementos que estÃ£o na 2Âª e na 4Âª linha da matriz: %i\n", add);
+	printf("Soma dos nÃºmeros primos: %i\n", primo);
+	printf("MÃ©dia dos nÃºmeros da matriz: %.2f\n", average);
+	printf("Maior nÃºmero da matriz: %i", greater);
 	
 }
