@@ -2,11 +2,13 @@
 
 ## objetivo Deste Repositório :memo:
 
-- compartilhar esta lista de exercícios envolvendo matrizes, desenvolvida para a disciplina "Linguagem de Programação" da Faculdade de Tecnologia do Estado de São Paulo - FATEC - unidade Itapetininga.
+- compartilhar as listas de exercícios resolvidas por mim, para a disciplina "Linguagens de Programação" da Faculdade de Tecnologia do Estado de São Paulo - FATEC - Campus Itapetininga.
 
-> **Para baixar o PDF com o Enunciado dos exercícios**
+> **Para baixar o PDF com o Enunciado dos exercícios clique nos links**
 >
-> :link: [Clique aqui](https://github.com/PeedrooGabriel/Exercicios-em-C/raw/main/lista-matrizes.pdf)
+> :link: [Lista dos códigos lineáres](https://github.com/PeedrooGabriel/Exercicios-em-C/raw/main/lista-matrizes.pdf)
+>
+> :link: [Lista programação modular]()
 
 ## Contato
 
