@@ -8,7 +8,7 @@
 >
 > :link: [Lista dos códigos lineáres](https://github.com/PeedrooGabriel/Exercicios-em-C/raw/main/lista-matrizes.pdf)
 >
-> :link: [Lista programação modular]()
+> :link: [Lista programação modular](https://github.com/PeedrooGabriel/Exercicios-em-C/raw/main/lista-funcoes-c.pdf)
 
 ## Contato
 
