@@ -6,7 +6,7 @@
 
 > **Para baixar o PDF com o Enunciado dos exercícios clique nos links**
 >
-> :link: [Lista dos códigos lineáres](https://github.com/PeedrooGabriel/Exercicios-em-C/raw/main/lista-matrizes.pdf)
+> :link: [Lista dos códigos lineares](https://github.com/PeedrooGabriel/Exercicios-em-C/raw/main/lista-matrizes.pdf)
 >
 > :link: [Lista programação modular](https://github.com/PeedrooGabriel/Exercicios-em-C/raw/main/lista-funcoes-c.pdf)
 
